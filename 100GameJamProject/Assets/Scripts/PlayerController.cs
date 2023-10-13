@@ -12,6 +12,11 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
 
+    Animator animator;
+    int isWalkingHash;
+    int animHorizontalHash;
+    int animVerticalHash;
+
     private void Awake()
     {
         playerInput = new PlayerInput();
@@ -20,11 +25,10 @@ public class PlayerController : MonoBehaviour
         playerInput.playerController.Move.canceled += OnMove;
 
         rb = GetComponent<Rigidbody2D>();
-    }
-
-    void Start()
-    {
-
+        animator = GetComponent<Animator>();
+        animHorizontalHash = Animator.StringToHash("Horizontal");
+        animVerticalHash = Animator.StringToHash("Vertical");
+        isWalkingHash = Animator.StringToHash("isWalking");
     }
 
     void Update()
@@ -32,12 +36,20 @@ public class PlayerController : MonoBehaviour
         Debug.Log(movementInput);
 
         rb.velocity = movement;
+        animator.SetFloat(animHorizontalHash, movement.x);
+        animator.SetFloat(animVerticalHash, movement.y);
     }
 
     private void OnMove(InputAction.CallbackContext callback)
     {
         movementInput = callback.ReadValue<Vector2>();
-        movement = movementInput * moveSpeed;
+        movement = movementInput * moveSpeed;//time.deltatime
+        if (movement != Vector2.zero) {
+            animator.SetBool(isWalkingHash, true);
+        }
+        else {
+            animator.SetBool(isWalkingHash, false);
+        }
     }
 
     private void OnEnable()

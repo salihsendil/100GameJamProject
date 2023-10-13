@@ -301,9 +301,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1133336729}
   - component: {fileID: 1133336730}
-  - component: {fileID: 1133336731}
+  - component: {fileID: 1133336734}
   - component: {fileID: 1133336733}
   - component: {fileID: 1133336732}
+  - component: {fileID: 1133336731}
   m_Layer: 0
   m_Name: hero-idle-back
   m_TagString: Untagged
@@ -426,7 +427,27 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!95 &1133336734
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133336728}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da234212327c2eb4e80d7128318a5010, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1339103471
 GameObject:
   m_ObjectHideFlags: 0
