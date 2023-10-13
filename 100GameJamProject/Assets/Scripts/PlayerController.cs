@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(movementInput);
+        //Debug.Log(movementInput);
 
         rb.velocity = movement;
         animator.SetFloat(animHorizontalHash, movement.x);
@@ -44,12 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         movementInput = callback.ReadValue<Vector2>();
         movement = movementInput * moveSpeed;//time.deltatime
-        if (movement != Vector2.zero) {
-            animator.SetBool(isWalkingHash, true);
-        }
-        else {
-            animator.SetBool(isWalkingHash, false);
-        }
+        animator.SetBool(isWalkingHash, movement != Vector2.zero);
     }
 
     private void OnEnable()
