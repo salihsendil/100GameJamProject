@@ -55,10 +55,9 @@ public class Pathfinder : MonoBehaviour
             animator.SetFloat(animHorizontalHash, characterController.velocity.y);
             animator.SetFloat(animVerticalHash, characterController.velocity.x);
             //Debug.Log(characterController.velocity);
-            animator.SetBool(animIsWalking, characterController.velocity != Vector3.zero);
+
         }
-
-
+        animator.SetBool(animIsWalking, characterController.velocity != Vector3.zero);
 
         //Debug.Log(rb.velocity.normalized);
         //transform.position = Vector2.MoveTowards(transform.position, waypoints[waypointIndex].position, moveSpeed * Time.deltaTime);
@@ -67,3 +66,6 @@ public class Pathfinder : MonoBehaviour
         //animator.SetFloat(animVerticalHash, rb.velocity.x);
     }
 }
+
+
+//enemy will turn to the player when he detected

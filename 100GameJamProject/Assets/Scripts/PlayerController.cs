@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     int animHorizontalHash;
     int animVerticalHash;
 
+
     private void Awake()
     {
         playerInput = new PlayerInput();

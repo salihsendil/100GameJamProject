@@ -21,9 +21,7 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
-        //rb = transform.parent.GetComponent<Rigidbody2D>();
 
-        //animIsWalking = Animator.StringToHash("isWalking");
     }
 
     void Update()
@@ -52,13 +50,14 @@ public class EnemyAI : MonoBehaviour
             transform.rotation = currentRot;
         }
     }
-    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         playerTransform = collision.transform;
         if (collision.gameObject.tag == "Player") {
             //shoot animation add
-            //TODO death scene load            
+            //TODO death scene load
+            animator.speed = 0f;
             currentRot = transform.rotation;
             pathfinder.IsStopped = true;
             characterController.Move(Vector3.zero);
@@ -67,7 +66,9 @@ public class EnemyAI : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        animator.speed = 1f;
+
         pathfinder.IsStopped = false;
-        
+
     }
 }
