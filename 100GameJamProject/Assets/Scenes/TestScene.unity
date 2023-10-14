@@ -1510,6 +1510,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 714634366611744743, guid: ebc9ae30651629d4b8d79812ad6c2624, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 714634366611744743, guid: ebc9ae30651629d4b8d79812ad6c2624, type: 3}
       propertyPath: m_Name
       value: LevelTrigger
       objectReference: {fileID: 0}

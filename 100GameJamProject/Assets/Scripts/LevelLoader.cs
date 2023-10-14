@@ -9,6 +9,7 @@ public class LevelLoader : MonoBehaviour
     int isNextSceneLoading;
     int isSceneLoaded;
     [SerializeField] string nextSceneName;
+    public GameObject repair;
 
     void Awake()
     {
@@ -33,6 +34,16 @@ public class LevelLoader : MonoBehaviour
     {
         animator.SetBool(isNextSceneLoading, false);
         animator.SetBool(isSceneLoaded, true);
+    }
+
+    public void DisableRepair()
+    {
+        if (repair) repair.SetActive(false);
+    }
+
+    public void EnableRepair()
+    {
+        if (repair) repair.SetActive(true);
     }
 
     IEnumerator FadeOutDelay()
