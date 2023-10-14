@@ -7,61 +7,63 @@ public class Pathfinder : MonoBehaviour
     [SerializeField] GameObject path;
     List<Transform> waypoints;
     int waypointIndex = 0;
-    float moveSpeed = 3f;
-    Rigidbody2D rb;
+    float moveSpeed = 2f;
     Animator animator;
     int animHorizontalHash;
     int animVerticalHash;
     int animIsWalking;
+    bool isStopped;
+    CharacterController characterController;
+    float tolarance = 0.1f;
 
-    // Start is called before the first frame update
+    //getters
+    public List<Transform> Waypoints { get => waypoints; }
+    public int WaypointIndex { get => waypointIndex; }
+    public bool IsStopped { get => isStopped; set => isStopped = value; }
+
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
         animHorizontalHash = Animator.StringToHash("Horizontal");
         animVerticalHash = Animator.StringToHash("Vertical");
         animIsWalking = Animator.StringToHash("isWalking");
 
         waypoints = new List<Transform>();
-        Debug.Log(path.transform.childCount);
         for (int i = 0; i < path.transform.childCount; i++) {
             waypoints.Add(path.transform.GetChild(i).transform);
         }
-
         transform.position = waypoints[0].transform.position;
-
-        Debug.Log(waypoints);
-        for (int i = 0; i < waypoints.Count; i++) {
-            Debug.Log(waypoints[i].position);
-        }
-        Debug.Log(waypoints.Capacity);
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Vector2 previousPos = transform.position;
-        if (transform.position == waypoints[waypointIndex].position) {
-            if (waypoints.Capacity - 1 == waypointIndex) {
-                waypoints.Reverse();
-                waypointIndex = 0;
-            }
+        //Debug.Log("index num: " + waypointIndex);
+        //Debug.Log("next pos: " + waypoints[waypointIndex].position);
+        /*transform.position == waypoints[waypointIndex].position */
+        if (Vector3.Distance(transform.position, waypoints[waypointIndex].position) < tolarance) {
             waypointIndex++;
         }
-        transform.position = Vector2.MoveTowards(transform.position, waypoints[waypointIndex].position, moveSpeed * Time.deltaTime);
-        Vector2 currentPos = transform.position;
-        rb.velocity = previousPos - currentPos;
-        animator.SetFloat(animHorizontalHash, rb.velocity.y);
-        animator.SetFloat(animVerticalHash, rb.velocity.x);
-        animator.SetBool(animIsWalking, rb.velocity != Vector2.zero);
-        Debug.Log(rb.velocity);
+        if (waypointIndex == waypoints.Count - 1) {
+            waypoints.Reverse();
+            waypointIndex = 0;
+        }
 
-        //rb.MovePosition(waypoints[waypointIndex].position);
+        if (!isStopped) {
+            characterController.Move((waypoints[waypointIndex].position - transform.position).normalized * moveSpeed * Time.deltaTime);
+            animator.SetFloat(animHorizontalHash, characterController.velocity.y);
+            animator.SetFloat(animVerticalHash, characterController.velocity.x);
+            //Debug.Log(characterController.velocity);
+            animator.SetBool(animIsWalking, characterController.velocity != Vector3.zero);
+        }
 
+
+
+        //Debug.Log(rb.velocity.normalized);
         //transform.position = Vector2.MoveTowards(transform.position, waypoints[waypointIndex].position, moveSpeed * Time.deltaTime);
-        //Vector3 pos = new Vector3(0, 0, waypoints[waypointIndex].position.x);
-        //transform.rotation = Quaternion.Euler(pos);
-        //transform.rotation = Quaternion.LookRotation(waypoints[waypointIndex].position, Vector2.up);
+        //rb.velocity = (waypoints[waypointIndex].position - transform.position).normalized * Time.deltaTime * moveSpeed * 50f;
+        //animator.SetFloat(animHorizontalHash, rb.velocity.y);
+        //animator.SetFloat(animVerticalHash, rb.velocity.x);
     }
 }
