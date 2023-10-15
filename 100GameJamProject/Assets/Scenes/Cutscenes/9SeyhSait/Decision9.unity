@@ -526,7 +526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newLevel: TypewriterCSC2
   endLevel: TypewriterGameOverTest
-  inkJSON: {fileID: 4900000, guid: e84e80b275ac2e947ad4fa28ae80c3df, type: 3}
+  inkJSON: {fileID: 4900000, guid: 2220e546919ab6b46a89a448381ab11b, type: 3}
 --- !u!1 &527646812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,7 +2321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895ed68a531226449b2f53ed283e7d76, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f95de7b12451014b803fd3a5ad548b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

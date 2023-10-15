@@ -6,11 +6,11 @@ INCLUDE globals.ink
 { pokemon_name == "": -> main | -> already_chose }
 
 === main ===
-Hello stranger!<
+Hello stranger!
 
-You have to choose a pokemon.<
+You have to choose a pokemon.
 
-Don't ask me why<
+Don't ask me why.
 
 Which pokemon do you choose?
     + [Charmander]

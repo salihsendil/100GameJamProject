@@ -4,72 +4,69 @@ INCLUDE globals.ink
 
 //#audio:animal_crossing_low
 
-{ subjects == "": -> main | -> signed }
+VAR madde1 = ""
+VAR madde2 = ""
+VAR madde3 = ""
 
 -> main
 
 === main ===
-Paşam, size bir mektup gelmiş. #speaker:İsmet Paşa #portrait:ismetpasa1
+Bugün Lozan'da barış antlaşmasının şartlarını konuşmak için buradayız. #speaker:Moderatör #portrait:conferencer1
 
-Mektubu getiren kişi acil olduğunu söylüyor ve sizin dışında kimseye de bu mektubu veremeyeceğini söylüyor. 
+Türkiye ile yapılacak antlaşma bazı nedenlerden dolayı gecikti.
 
-Bu o postacı çocuk. Tanıyorum kendisini. #speaker:M. Kemal Paşa #portrait:kemalpasa1
+Ve artık bazı maddelere karar vermenin vakti geldi.
 
-Söyleyin içeri gelsin. 
-
-Paşam, elimde size acil ulaştırmam gereken bir belge var.  #speaker:Postacı #portrait:postman1
-
-Ne hakkında? #speaker:M. Kemal Paşa #portrait:kemalpasa1
-
-Lütfen, siz okuyun. #speaker:Postacı #portrait:postman1
-
-Paşam, yüzünüzden düşen bin parça? #speaker:İsmet Paşa #portrait:ismetpasa1
-    + [Savaşa devam]
-        -> rebel
-    + [Kaçmak]
-        -> escape
+Kapitülasyonlar...
+    + [kabul edilebilir.]
+        -> chosen1("kabul edilebilir.")
+    + [kabul edilemez]
+        -> chosen1("kabul edilemez.")
         
-=== rebel ===
+=== chosen1(a) ===
+~ madde1 = a 
+Kapitülasyonlar {a} #speaker:İsmet Paşa #portrait:ismetpasa1
+        
+Not alındı. #speaker:Moderatör #portrait:conferencer1
 
-Şaşırdığım bir şey değil. İstanbul’daki hükümet, hakkımızda ölüm fermanı yayınlamış. #speaker:M. Kemal Paşa #portrait:kemalpasa1
+Türkiye savaş tazminatı... 
++ [ödememeli!]
+        -> chosen2("ödememeli!")
+    + [ödemeli.]
+        -> chosen2("ödemeli.")
+        
+=== chosen2(b) ===
+~ madde2 = b
+Türkiye savaş tazminatı {b} #speaker:İsmet Paşa #portrait:ismetpasa1
 
-Bir de utanmadan pişman olanların affedileceğini yazmışlar. 
+Bu da not alındı. #speaker:Moderatör #portrait:conferencer1
 
-İsmet, ekibimize haber ver. Bundan sonra İstanbul hükümeti meşruluğunu yitirmiştir.  
+Peki ya Türkiye'deki azınlıklar? Azınlıkların hakları... 
++ [Eşittir]
+        -> chosen3(" eşit birer vatandaşımızdır.")
+    + [Değildir]
+        -> chosen3("ın bazı ayrıcalıkları olabilir.")
+        
+=== chosen3(c) ===
+~ madde3 = c
+Azınlıklar{c} #speaker:İsmet Paşa #portrait:ismetpasa1
 
-Bundan böyle milletin tek bir temsilcisi vardır, o da Ankara’da kuracağımız yeni meclistir. 
+Bu da not alındı. #speaker:Moderatör #portrait:conferencer1
 
-Kurtuluş Savaşı artık fiilen başlamıştır. Artık ne İtilaf Devletleri ile müzakere edilebilir, ne de Yunan ordularının Ege’deki işgaline tahammül edilebilir! 
+Tekrar ediyorum...
 
-İsmet Paşa, senden tek bir ricam olacak. 
+Kapitülasyonlar {madde1}
 
-Ordunu savaş için hazırla! İşgalci Yunan ordularına karşı en kısa zamanda büyük bir taarruza başlayacağız.
+Türkiye savaş tazminatı {madde2}
 
-Emredersiniz paşam! #speaker:İsmet Paşa #portrait:ismetpasa
+Azınlıklar{madde3}
+
+Doğru mudur?
+
+Evet ilkelerimiz bu şekildedir. #speaker:İsmet Paşa #portrait:ismetpasa1
+
 -> END
 
-=== escape ===
 
-İstanbul’daki saray hükümeti vatanı kurtarmak yerine İtilaf Devletleri’nin yanında saf tutmayı seçmiş ve bizim hakkımızda bir ölüm fermanı yayınlamış. #speaker:M. Kemal Paşa #portrait:kemalpasa1
 
-Eğer Damat Ferit Paşa işgalcilerin o kadar yapmış olduğu zulme rağmen yine de onların tarafını tutuyorsa, yapabileceğimiz pek bir şey kalmamış demektir. 
-
-Paşam, lütfen bir süreliğine istirahat edin. #speaker:İsmet Paşa #portrait:ismetpasa1
-
-Böyle bir şeyi nasıl söylersin İsmet! Üstelik bu kadar yol kat etmişken. #speaker:M. Kemal Paşa #portrait:kemalpasa1
-
-Paşam, durumun ben de farkındayım ama kendiniz için olmasa bile unutmayın ki vatanın bağımsızlığı ve bölünmez bütünlüğünü sağlamak için Kuvayı Milliye’ye katılmış birliklerimiz için sizin hayatınız çok önemli. #speaker:İsmet Paşa #portrait:ismetpasa1
-
-Zar zor topladığımız bu başıbozuk ordunun moralini korumak için sizin en azından bir süreliğine gizlenmeniz daha doğru olacaktır. 
-
-Peki, madem öyle icap ediyor, o zaman bir süreliğine bu mücadeleye ara veririz. #speaker:M. Kemal Paşa #portrait:kemalpasa1
--> END
-
-=== subjects(pokemon) ===
-~ pokemon_name = pokemon
-Bu maddeyi onayladınız: {subjects}!
--> END
-
-=== signed ===
-You already chose {subjects}!
--> END
+        

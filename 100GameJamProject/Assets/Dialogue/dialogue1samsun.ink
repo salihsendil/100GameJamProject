@@ -1,5 +1,7 @@
 INCLUDE globals.ink
 
+VAR gameover = false
+
 //EXTERNAL playEmote(emoteName)
 
 //#audio:animal_crossing_low
@@ -49,4 +51,5 @@ Ben ve ordum emrinizdedir paşam! #speaker:Kazım Paşa #portrait:kazimpasa1
 
 Ne olursa olsun bu mücadele devam etmek zorundadır. Mustafa Kemal Paşa yanımızda olmasa bile bunu yapmak zorundayız. Vatanın kurtuluşu bize bağlı. #speaker:Kazım Paşa #portrait:kazimpasa1
 
+gameover = true
 -> END

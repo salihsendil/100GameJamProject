@@ -526,7 +526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newLevel: TypewriterCSC2
   endLevel: TypewriterGameOverTest
-  inkJSON: {fileID: 4900000, guid: e84e80b275ac2e947ad4fa28ae80c3df, type: 3}
+  inkJSON: {fileID: 4900000, guid: 7c1273d63dad9b54dac1a5fe770da67c, type: 3}
 --- !u!1 &527646812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,12 +1878,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
+  m_fontSize: 35
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 10
-  m_fontSizeMax: 45
+  m_fontSizeMax: 35
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -2321,7 +2321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 895ed68a531226449b2f53ed283e7d76, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dbdfa0ab1b3511d448a2a74bb8882ebf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -18,9 +18,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/1Samsun/BlackCutscene2.unity
     guid: 5e48d85531c0d2f4eb38d057c2732127
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/1Samsun/Decision1.unity
+    guid: aa7ab1eafaac03d41886177ffe3927e3
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/TypewriterCSC2.unity
+    guid: 566d94ac440dcad43a74b5497bd55aad
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/BlackCutscene3.unity
+    guid: 64088d5a764045741983e18eb34453bf
+  - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/DecisionTest.unity
     guid: d6996959200df9548959873e19a42153
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/TypewriterGameOverTest.unity
+    guid: 7dce4047dec82564e8f9a4fb9bc537bc
   m_configObjects: {}

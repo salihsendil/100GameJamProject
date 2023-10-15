@@ -13,6 +13,7 @@ public class MenuController : MonoBehaviour
     {
         Debug.Log(newLevel + "level");
         SceneManager.LoadScene(newLevel);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void ExitButton()

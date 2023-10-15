@@ -526,7 +526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newLevel: TypewriterCSC2
   endLevel: TypewriterGameOverTest
-  inkJSON: {fileID: 4900000, guid: e84e80b275ac2e947ad4fa28ae80c3df, type: 3}
+  inkJSON: {fileID: 4900000, guid: b672cfea14121b149a01527235d2a6f9, type: 3}
 --- !u!1 &527646812
 GameObject:
   m_ObjectHideFlags: 0

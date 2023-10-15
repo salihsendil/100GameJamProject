@@ -10,6 +10,7 @@ using System.Reflection;
 
 public class DialogueManager : MonoBehaviour
 {
+    DecisionController decisioncontroller;
     [Header("Params")]
 
     [SerializeField] private float typingSpeed = 0.04f;
@@ -57,6 +58,7 @@ public class DialogueManager : MonoBehaviour
     private const string AUDIO_TAG = "audio";
 
     public bool dialogueIsPlaying { get; private set; }
+    public bool dialogueIsPlayed { get; private set; }
 
     private bool canContinueToNextLine = false;
     
@@ -75,6 +77,7 @@ public class DialogueManager : MonoBehaviour
 
         dialogueVariables = new DialogueVariables(loadGlobalsJSON);
         inkExternalFunctions = new InkExternalFunctions();
+        decisioncontroller = FindObjectOfType<DecisionController>();
 
         //audioSource = this.gameObject.AddComponent<AudioSource>();
         //currentAudioInfo = defaultAudioInfo;
@@ -88,6 +91,7 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         dialogueIsPlaying = false;
+        dialogueIsPlayed = false;
         dialoguePanel.SetActive(false);
 
         //layoutAnimator = dialoguePanel.GetComponent<Animator>();
@@ -184,6 +188,7 @@ public class DialogueManager : MonoBehaviour
         //inkExternalFunctions.Unbind(currentStory);
 
         dialogueIsPlaying = false;
+        dialogueIsPlayed = true;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
 
@@ -456,6 +461,19 @@ public class DialogueManager : MonoBehaviour
             Debug.LogWarning("Ink Variable was found to be null: " + variableName);
         }
         return variableValue;
+    }
+    public void DecisionBoolean(bool decision)
+    {
+        if (decision == false)
+        {
+            decisioncontroller.CallWrongAnswer(true);
+            Debug.Log("Yanlýþ cevaba týklandý");
+        }
+        else if (decision == true)
+        {
+            decisioncontroller.CallWrongAnswer(false);
+            Debug.Log("Doðru cevapta kalýndý");
+        }
     }
 
     public void OnApplicationQuit(bool pause)
