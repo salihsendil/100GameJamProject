@@ -5,16 +5,21 @@ using UnityEngine;
 public class LevelLoadTrigger : MonoBehaviour
 {
     LevelLoader levelLoader;
+    GameSession gameSession;
 
-    void Start()
+    void Awake()
     {
         levelLoader = FindObjectOfType<LevelLoader>();
+        gameSession = FindObjectOfType<GameSession>();
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player")) {
-            levelLoader.LoadNextScene();
+        if (gameSession.AllLettersCollected) {
+            if (other.gameObject.CompareTag("Player")) {
+                levelLoader.LoadNextScene();
+            }
         }
     }
 }

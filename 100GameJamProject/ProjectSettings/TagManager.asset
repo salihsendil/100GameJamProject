@@ -44,6 +44,12 @@ TagManager:
   - name: background
     uniqueID: 1560187735
     locked: 0
+  - name: path
+    uniqueID: 421963487
+    locked: 0
+  - name: decorations
+    uniqueID: 888460897
+    locked: 0
   - name: player
     uniqueID: 2530826429
     locked: 0

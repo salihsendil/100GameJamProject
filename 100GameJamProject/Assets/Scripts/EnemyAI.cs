@@ -26,28 +26,30 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (!pathfinder.IsStopped) {
-            float angle = Mathf.Atan2(characterController.velocity.y, characterController.velocity.x) * Mathf.Rad2Deg;
-            angle = (angle + 360) % 360;
-            if (angle >= 45 && angle < 135) {
-                //Debug.Log("yukarý");
-                transform.rotation = Quaternion.Euler(0, 0, 180);
+        if (pathfinder) {
+            if (!pathfinder.IsStopped) {
+                float angle = Mathf.Atan2(characterController.velocity.y, characterController.velocity.x) * Mathf.Rad2Deg;
+                angle = (angle + 360) % 360;
+                if (angle >= 45 && angle < 135) {
+                    //Debug.Log("yukarý");
+                    transform.rotation = Quaternion.Euler(0, 0, 180);
+                }
+                else if (angle >= 135 && angle < 225) {
+                    transform.rotation = Quaternion.Euler(0, 0, 270);
+                    //Debug.Log("sol");
+                }
+                else if (angle >= 225 && angle < 315) {
+                    //Debug.Log("aþaðý");
+                    transform.rotation = Quaternion.Euler(0, 0, 0);
+                }
+                else if (angle >= 315 || angle < 45) {
+                    //Debug.Log("sað");
+                    transform.rotation = Quaternion.Euler(0, 0, 90);
+                }
             }
-            else if (angle >= 135 && angle < 225) {
-                transform.rotation = Quaternion.Euler(0, 0, 270);
-                //Debug.Log("sol");
+            else {
+                transform.rotation = currentRot;
             }
-            else if (angle >= 225 && angle < 315) {
-                //Debug.Log("aþaðý");
-                transform.rotation = Quaternion.Euler(0, 0, 0);
-            }
-            else if (angle >= 315 || angle < 45) {
-                //Debug.Log("sað");
-                transform.rotation = Quaternion.Euler(0, 0, 90);
-            }
-        }
-        else {
-            transform.rotation = currentRot;
         }
     }
 
