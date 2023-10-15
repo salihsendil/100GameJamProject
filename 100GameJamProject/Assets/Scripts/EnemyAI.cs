@@ -11,12 +11,14 @@ public class EnemyAI : MonoBehaviour
     int animIsWalking;
     bool isStopped;
     Quaternion currentRot;
+    LevelLoader levelLoader;
 
     private void Awake()
     {
         pathfinder = GetComponentInParent<Pathfinder>();
         characterController = GetComponentInParent<CharacterController>();
         animator = GetComponentInParent<Animator>();
+        levelLoader = FindObjectOfType<LevelLoader>();
     }
 
     void Start()
@@ -63,6 +65,7 @@ public class EnemyAI : MonoBehaviour
             currentRot = transform.rotation;
             pathfinder.IsStopped = true;
             characterController.Move(Vector3.zero);
+            levelLoader.LoadGameOverScene();
         }
 
     }

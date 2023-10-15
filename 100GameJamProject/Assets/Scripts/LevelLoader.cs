@@ -24,6 +24,12 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(FadeOutDelay());
     }
 
+    public void LoadGameOverScene()
+    {
+        Debug.Log("game over");
+        //SceneManager.LoadScene("GameOverScene");
+    }
+
     private void FadeInTrigger()
     {
         animator.SetBool(isNextSceneLoading, true);
