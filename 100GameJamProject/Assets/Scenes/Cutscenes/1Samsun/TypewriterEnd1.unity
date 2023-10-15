@@ -367,9 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec8585ce81d2264498aead2faccb142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "En sonunda b\xFCy\xFCk bir direni\u015F i\xE7in May\u0131s 1919\u2019da
-    harekete ge\xE7me karar\u0131 ald\u0131lar. Ve bu direni\u015Fin ba\u015Flad\u0131\u011F\u0131
-    yer ise Karadeniz\u2019deki k\xFC\xE7\xFCk bir liman \u015Fehri olan Samsun\u2019du."
+  input: "Ama onun hamleleri olmadan istenilen sonu\xE7 al\u0131namayacakt\u0131."
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.08
@@ -933,9 +931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec8585ce81d2264498aead2faccb142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Birinci D\xFCnya Sava\u015F\u0131\u2019n\u0131n kaybedilmesinin hayal k\u0131r\u0131kl\u0131\u011F\u0131
-    ile y\xFCzle\u015Fmeye \xE7al\u0131\u015Fan askerler, Mondros Ate\u015Fkes Antla\u015Fmas\u0131\u2019n\u0131n
-    yaratt\u0131\u011F\u0131 bu boyunduru\u011Fa daha fazla tahamm\xFCl edemediler."
+  input: "Milli M\xFCcadele her \u015Fekilde devam edecekti"
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.08
@@ -1217,12 +1213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec8585ce81d2264498aead2faccb142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Fakat, bu antla\u015Fma basit bir ate\u015Fkes antla\u015Fmas\u0131ndan
-    \xE7ok daha fazlas\u0131yd\u0131. \u0130mparatorlu\u011Fun b\xFCt\xFCn ordular\u0131
-    terhis edilmi\u015F, neredeyse b\xFCt\xFCn askeri te\u015Fkilatlar da\u011F\u0131t\u0131lm\u0131\u015Ft\u0131.
-    \xDCstelik antla\u015Fman\u0131n 7. ve 24. maddeleri \u0130tilaf Devletleri\u2019ne
-    asayi\u015Fi sa\u011Flamak bahanesiyle \xFClkede istedikleri yerleri i\u015Fgal
-    edebilmesine izin veriyordu."
+  input: "M\xFCdafaa-i Hukuk Cemiyetleri kurulmu\u015Ftu ama h\xE2l\xE2 da\u011F\u0131n\u0131k
+    h\xE2ldelerdi."
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.08
@@ -1442,10 +1434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec8585ce81d2264498aead2faccb142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Tarih, May\u0131s 1919. Osmanl\u0131 \u0130mparatorlu\u011Fu, yedi ay \xF6nce
-    30 Ekim 1918\u2019de imzalad\u0131\u011F\u0131 Mondros Ate\u015Fkes Antla\u015Fmas\u0131
-    gere\u011Fince yenilgiyi kabul etmi\u015F ve sava\u015Ftan \xE7ekildi\u011Fini
-    duyurmu\u015Ftu."
+  input: "Mustafa Kemal Pa\u015Fa h\xFCk\xFCmetin verdi\u011Fi g\xF6revi yerine getirmeyi
+    se\xE7mi\u015Ftir."
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.08
