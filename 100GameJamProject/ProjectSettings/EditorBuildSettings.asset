@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/2Erzurum/BlackCutscene4.unity
     guid: f885bee345f013446a29ffc8698bcbbd
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/TutorialScene.unity
+    guid: 0e2da1c43b51e324bb285aa24fa6d9fd
+  - enabled: 1
     path: Assets/Scenes/Cutscenes/2Erzurum/Decision2.unity
     guid: 6809205e9fbdb0f47b812394e92bab83
   - enabled: 1
@@ -45,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/3Sivas/BlackCutscene7.unity
     guid: 7864bc48666d6ac4a96bd6d73dba892c
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/3Sivas/mission1.unity
+    guid: 3210da88e588fde49a1203bd451366a6
+  - enabled: 1
     path: Assets/Scenes/Cutscenes/3Sivas/Decision3.unity
     guid: faf40699452e145479d7c9557fd89ef0
   - enabled: 1
@@ -53,6 +59,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/6Sakarya/BlackCutscene8.unity
     guid: c0ab47fb85196b34bac8d66678aa607a
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/6Sakarya/StealthMission0.unity
+    guid: 7ecf29235fdba894b903ccdd9de1b15e
   - enabled: 1
     path: Assets/Scenes/Cutscenes/6Sakarya/Cutscene1.unity
     guid: be4bde7f02376b14b8925663ddf3cea8

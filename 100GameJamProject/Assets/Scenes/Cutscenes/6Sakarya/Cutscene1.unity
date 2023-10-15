@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: In fact it feels... Hostile.
+  input: "\u015Eimdiyse Yunan askeri Sakarya'da"
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.1
@@ -800,7 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: I wonder what lies ahead of this trash dump....
+  input: "Hi\xE7bir \u015Fey bitmi\u015F de\u011Fil. H\xE2l\xE2 bir umut var."
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.05
@@ -1451,7 +1451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: This place.... It doesn't feel familiar to me.
+  input: "Yunan askeri k\u0131sa bir s\xFCre \xF6nce Polatl\u0131'ya kadar gelmi\u015Fti"
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.1
@@ -1553,7 +1553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: H-huh.... Where am I...?
+  input: "Kocatepe'de \u015Fafak yeni s\xF6k\xFCyordu."
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.08
