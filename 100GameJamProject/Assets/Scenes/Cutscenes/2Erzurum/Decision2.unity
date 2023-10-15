@@ -524,8 +524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ac3ab0b8ebde344aa83630f018ba01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: TypewriterCSC2
-  endLevel: TypewriterGameOverTest
+  newLevel: TypewriterCSC3
+  endLevel: TypewriterEnd2
   inkJSON: {fileID: 4900000, guid: b672cfea14121b149a01527235d2a6f9, type: 3}
 --- !u!1 &527646812
 GameObject:

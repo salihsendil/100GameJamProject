@@ -175,8 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Hatt\u0131 m\xFCdafaa yoktur, sath\u0131 m\xFCdafaa vard\u0131r. Bu sat\u0131h
-    b\xFCt\xFCn vatand\u0131r."
+  input: In fact it feels... Hostile.
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.1
@@ -465,8 +464,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -364.7708, y: 0}
+  m_AnchoredPosition: {x: 23, y: 0}
+  m_SizeDelta: {x: -561.329, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &605566345
 MonoBehaviour:
@@ -488,7 +487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a02ed5769eb7bbe4b88746f56dae0be1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 45b16c6e9cce37344adf4c86f7c94582, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -801,8 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Vatan\u0131n her kar\u0131\u015F topra\u011F\u0131 vatanda\u015F kan\u0131yla
-    sulanmad\u0131k\xE7a, vatan terk olunamaz"
+  input: I wonder what lies ahead of this trash dump....
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.05
@@ -1231,7 +1229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e9d7a9009db3c4eaaec9823dbfae07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: CutsceneFirst
+  newLevel: TypewriterCSC5
 --- !u!4 &1401254682
 Transform:
   m_ObjectHideFlags: 0
@@ -1453,7 +1451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Ama buras\u0131 d\xFC\u015Ferse Anadolu'nun kalan\u0131 da d\xFC\u015Febilir."
+  input: This place.... It doesn't feel familiar to me.
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.1
@@ -1540,7 +1538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.35, y: -7.1399}
+  m_AnchoredPosition: {x: 129.65, y: -7.1399}
   m_SizeDelta: {x: 1340, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1989974056
@@ -1555,8 +1553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6bc0f867d91da488ed48aa8e6f4a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "E\u011Fer bu meydan muharebesini ba\u015Farabilirsek sonunda bu meydan
-    muharebesini bir taaruza \xE7evirebiliriz."
+  input: H-huh.... Where am I...?
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: 215d03a5a74d1954eafcff7e198771b1, type: 3}
   delay: 0.08

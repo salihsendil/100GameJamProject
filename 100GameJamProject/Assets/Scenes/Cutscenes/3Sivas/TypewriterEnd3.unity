@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e9d7a9009db3c4eaaec9823dbfae07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: BlackCutscene1
+  newLevel: Decision3
 --- !u!4 &1401254682
 Transform:
   m_ObjectHideFlags: 0
