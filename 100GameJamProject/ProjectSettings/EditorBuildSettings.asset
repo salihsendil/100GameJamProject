@@ -5,10 +5,118 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/MainMenu.unity
+    guid: 45da06738cd3fd347988abf413a558dc
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/1Samsun/TypewriterCSC1.unity
+    guid: 62cd9a59e51132d4bbc46e787bd73e0b
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/1Samsun/BlackCutscene1.unity
+    guid: 526b6d1e37b0a5749af06769018c303a
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/1Samsun/BlackCutscene2.unity
+    guid: 5e48d85531c0d2f4eb38d057c2732127
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/1Samsun/Decision1.unity
+    guid: aa7ab1eafaac03d41886177ffe3927e3
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/TypewriterCSC2.unity
+    guid: 566d94ac440dcad43a74b5497bd55aad
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/BlackCutscene3.unity
+    guid: 64088d5a764045741983e18eb34453bf
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/BlackCutscene4.unity
+    guid: f885bee345f013446a29ffc8698bcbbd
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/Decision2.unity
+    guid: 6809205e9fbdb0f47b812394e92bab83
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/3Sivas/TypewriterCSC3.unity
+    guid: 10bfefb95d96e214b91990747e599002
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/3Sivas/BlackCutscene5.unity
+    guid: 5abedb82ec81ed44981a12972e612aed
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/3Sivas/BlackCutscene6.unity
+    guid: 600bded2dccbc2e4d8de501fe8b54b7c
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/3Sivas/BlackCutscene7.unity
+    guid: 7864bc48666d6ac4a96bd6d73dba892c
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/3Sivas/Decision3.unity
+    guid: faf40699452e145479d7c9557fd89ef0
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/6Sakarya/TypewriterCSC4.unity
+    guid: 4d3918bd741839343a5aa4b086cc44dd
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/6Sakarya/BlackCutscene8.unity
+    guid: c0ab47fb85196b34bac8d66678aa607a
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/6Sakarya/Cutscene1.unity
+    guid: be4bde7f02376b14b8925663ddf3cea8
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/6Sakarya/Cutscene2.unity
+    guid: d89389c8eb13daf43bb943037c53f9c7
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/7Lozan/TypewriterCSC5.unity
+    guid: 87aa9768079639b4dba5a9361269924d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/7Lozan/Decision7.unity
+    guid: 45210e764f81fa74e8e8914785709917
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/7Lozan/Cutscene3.unity
+    guid: 62162422861acaa45a43a68492a3c0be
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/8Hilafet/Decision8.unity
+    guid: 72d40eac2a4f5314c8d63ef664bf8ea1
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/8Hilafet/TypewriterCSC6.unity
+    guid: ec577b08ee196cc42a9fc779b69c7d40
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/9SeyhSait/Decision9.unity
+    guid: 629ccbdab6af13f4ca3b9996c7b3ff36
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/9SeyhSait/TypewriterCSC7.unity
+    guid: 96c75535320c7ff429ab9ae837d2efda
+  - enabled: 1
+    path: "Assets/Scenes/Cutscenes/10\u0130zmirSuilkasti/TypewriterCSC8.unity"
+    guid: 95b14e583ea5245449ff24b1618fa44e
+  - enabled: 1
+    path: "Assets/Scenes/Cutscenes/10\u0130zmirSuilkasti/Decision10.unity"
+    guid: f41bb6e96c829e54fa2be5845bd5dfe8
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/EndVideo.unity
+    guid: 2eceed5deb082164996356de8601bf21
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/newScene.unity
-    guid: ae1a12b0cf409334aa95ed1c376fc969
+    path: Assets/Scenes/DecisionTest.unity
+    guid: d6996959200df9548959873e19a42153
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/TypewriterGameOverTest.unity
+    guid: 7dce4047dec82564e8f9a4fb9bc537bc
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/1Samsun/TypewriterEnd1.unity
+    guid: aeddba4869fc98445bb48e14b16dba58
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/2Erzurum/TypewriterEnd2.unity
+    guid: 969c67d544f2aff4296bd03b3f36ecae
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/3Sivas/TypewriterEnd3.unity
+    guid: 7bf0c8eb03c712d49a2494429fee86e6
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/7Lozan/TypewriterEnd4.unity
+    guid: d667ab9449fd6f846b1f4c3734280ad0
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/8Hilafet/TypewriterEnd5.unity
+    guid: 0cd846162c5fc294283cdf70443b503e
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/9SeyhSait/TypewriterEnd6.unity
+    guid: a1213a8704a568b41a7252dbf3efdb59
+  - enabled: 1
+    path: "Assets/Scenes/Cutscenes/10\u0130zmirSuilkasti/TypewriterEnd7.unity"
+    guid: 8b984ecbaefc73c43ada501bf8e04638
   m_configObjects: {}
