@@ -1,6 +1,6 @@
 INCLUDE globals.ink
 
-EXTERNAL playEmote(emoteName)
+//EXTERNAL playEmote(emoteName)
 
 //#audio:animal_crossing_low
 { pokemon_name == "": -> main | -> already_chose }
