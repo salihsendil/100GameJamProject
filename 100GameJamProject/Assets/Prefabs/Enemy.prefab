@@ -239,7 +239,7 @@ SpriteRenderer:
   m_SortingLayerID: -1764140867
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 59772473, guid: 4519d45273f5dc549a8b72fa4d648434, type: 3}
+  m_Sprite: {fileID: 1338749728, guid: 8e7f508b7093dee4c8db44ffc79eb34e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -261,13 +261,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2.24
-  m_Radius: 0.66
+  m_Height: 2
+  m_Radius: 0.33
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: -0.16, z: 0}
+  m_Center: {x: 0, y: -0.04, z: 0}
 --- !u!82 &5047028332387249151
 AudioSource:
   m_ObjectHideFlags: 0
