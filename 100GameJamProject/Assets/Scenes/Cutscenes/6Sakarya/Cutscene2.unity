@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b20aa8372bac14387c34a7d6658fdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextlevel: CutsceneFirst
+  nextlevel: TypewriterCSC5
   dialogueFinished: 0
 --- !u!850595691 &970254589
 LightingSettings:
@@ -1231,7 +1231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e9d7a9009db3c4eaaec9823dbfae07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: CutsceneFirst
+  newLevel: TypewriterCSC5
 --- !u!4 &1401254682
 Transform:
   m_ObjectHideFlags: 0
