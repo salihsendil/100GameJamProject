@@ -60,4 +60,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 4907399843518605159, guid: dd33e4260a5e4b8489d37f62e6c38c1d, type: 3}
+  gameOverMenu: {fileID: 4558129288811868710, guid: a038e6ada5c3345439614dc5c6684e6a, type: 3}
+  debugMenu: {fileID: 8049065701616114589, guid: 36ea1c5361ca647478ab2362834f02b7, type: 3}
   isPaused: 0
+  isNoticed: 0
+  isDebug: 0

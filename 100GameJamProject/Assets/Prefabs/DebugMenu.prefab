@@ -2816,7 +2816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -245.48419, y: 37.000015}
+  m_AnchoredPosition: {x: -248, y: 221}
   m_SizeDelta: {x: 125.557, y: 69.146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8049065701473515130
@@ -3673,9 +3673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BlackCutscene2
-
-'
+  m_text: CityStealth0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7300,7 +7298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -245.48407, y: 130}
+  m_AnchoredPosition: {x: -248, y: 130}
   m_SizeDelta: {x: 125.557, y: 69.146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8049065702606920341
@@ -8989,7 +8987,7 @@ GameObject:
   - component: {fileID: 8049065703109136648}
   - component: {fileID: 595343475481402030}
   m_Layer: 5
-  m_Name: BlackCutscene2
+  m_Name: CityStealth0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9013,7 +9011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -245.48407, y: 221.00003}
+  m_AnchoredPosition: {x: -248, y: 37.003}
   m_SizeDelta: {x: 125.557, y: 69.146}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8049065703109136650
@@ -9122,7 +9120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8229d76cc39f748a422573ab7056cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: BlackCutscene2
+  scene: CityStealth0
 --- !u!1 &8049065703129177840
 GameObject:
   m_ObjectHideFlags: 0

@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/3Sivas/BlackCutscene7.unity
     guid: 7864bc48666d6ac4a96bd6d73dba892c
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/3Sivas/cityStealth0.unity
+    path: Assets/Scenes/Cutscenes/3Sivas/CityStealth0.unity
     guid: 3210da88e588fde49a1203bd451366a6
   - enabled: 1
     path: Assets/Scenes/Cutscenes/3Sivas/Decision3.unity
@@ -137,4 +137,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/11Devrimler/TypewriterEnd8.unity
     guid: 05f7d4c277fbd8a4cbff4c6f0592ac07
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/1Samsun/Mission1.unity
+    guid: cf27104b195c6b544ac20d10fc81a4ea
   m_configObjects: {}

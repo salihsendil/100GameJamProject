@@ -42109,11 +42109,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735931, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2619324
+      value: -2.3207302
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735931, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9597058
+      value: -1.9595742
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735931, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -42823,6 +42823,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 4497425737836631031, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
+    - target: {fileID: 4497425737836631031, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -9119282067571826433, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
     - target: {fileID: 4497425737989566224, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
       propertyPath: nextSceneName
       value: Decision3
@@ -43066,9 +43074,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 588479629}
     - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
+      propertyPath: debugMenu
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1169581704}
+    - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
+      propertyPath: gameOverMenu
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
 --- !u!1 &1883142867
