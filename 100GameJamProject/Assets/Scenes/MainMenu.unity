@@ -859,8 +859,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Katk. Bul.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
-  m_sharedMaterial: {fileID: -9119282067571826433, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
+  m_sharedMaterial: {fileID: -9119282067571826433, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1075,8 +1075,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ayarlar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
-  m_sharedMaterial: {fileID: -9119282067571826433, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
+  m_sharedMaterial: {fileID: -9119282067571826433, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1854,8 +1854,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xC7\u0131k\u0131\u015F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
-  m_sharedMaterial: {fileID: -9119282067571826433, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
+  m_sharedMaterial: {fileID: -9119282067571826433, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4666,8 +4666,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Oyuna Ba\u015Fla"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
-  m_sharedMaterial: {fileID: -9119282067571826433, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
+  m_sharedMaterial: {fileID: -9119282067571826433, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

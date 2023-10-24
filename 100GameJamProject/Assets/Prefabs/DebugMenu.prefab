@@ -9399,7 +9399,7 @@ GameObject:
   - component: {fileID: 8049065702606920339}
   - component: {fileID: 3644861090695760269}
   m_Layer: 5
-  m_Name: TutorialLevel
+  m_Name: MansionLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9532,7 +9532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8229d76cc39f748a422573ab7056cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: TutorialLevel
+  scene: MansionLevel
 --- !u!1 &8049065702655607369
 GameObject:
   m_ObjectHideFlags: 0
@@ -10313,7 +10313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TutorialLevel
+  m_text: MansionLevel
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
   m_sharedMaterial: {fileID: -9119282067571826433, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}

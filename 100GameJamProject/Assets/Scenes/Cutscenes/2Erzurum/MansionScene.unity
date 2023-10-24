@@ -10669,6 +10669,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -9119282067571826433, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
     - target: {fileID: 4497425737989566224, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
+      propertyPath: gamerOverMenu
+      value: 
+      objectReference: {fileID: 1148833194}
+    - target: {fileID: 4497425737989566224, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
       propertyPath: nextSceneName
       value: Decision2
       objectReference: {fileID: 0}
@@ -10725,12 +10729,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7482579674821731100, guid: ebc9ae30651629d4b8d79812ad6c2624, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482579674821731100, guid: ebc9ae30651629d4b8d79812ad6c2624, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482579674821731100, guid: ebc9ae30651629d4b8d79812ad6c2624, type: 3}
       propertyPath: m_LocalPosition.x
       value: -52.29
       objectReference: {fileID: 0}
     - target: {fileID: 7482579674821731100, guid: ebc9ae30651629d4b8d79812ad6c2624, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.77
+      value: 7.19
       objectReference: {fileID: 0}
     - target: {fileID: 7482579674821731100, guid: ebc9ae30651629d4b8d79812ad6c2624, type: 3}
       propertyPath: m_LocalPosition.z

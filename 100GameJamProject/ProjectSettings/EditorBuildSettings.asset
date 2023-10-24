@@ -33,8 +33,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/2Erzurum/BlackCutscene4.unity
     guid: f885bee345f013446a29ffc8698bcbbd
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/2Erzurum/TutorialScene.unity
-    guid: 0e2da1c43b51e324bb285aa24fa6d9fd
+    path: Assets/Scenes/Cutscenes/2Erzurum/MansionScene.unity
+    guid: 597543968e306af4b910aea6da581c42
   - enabled: 1
     path: Assets/Scenes/Cutscenes/2Erzurum/Decision2.unity
     guid: 6809205e9fbdb0f47b812394e92bab83
@@ -51,7 +51,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/3Sivas/BlackCutscene7.unity
     guid: 7864bc48666d6ac4a96bd6d73dba892c
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/3Sivas/cityStealth0.unity
+    path: Assets/Scenes/Cutscenes/3Sivas/CityStealth0.unity
     guid: 3210da88e588fde49a1203bd451366a6
   - enabled: 1
     path: Assets/Scenes/Cutscenes/3Sivas/Decision3.unity
