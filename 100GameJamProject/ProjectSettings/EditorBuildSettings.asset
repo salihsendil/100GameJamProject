@@ -51,7 +51,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/3Sivas/BlackCutscene7.unity
     guid: 7864bc48666d6ac4a96bd6d73dba892c
   - enabled: 1
-    path: Assets/Scenes/Cutscenes/3Sivas/CityStealth0.unity
+    path: Assets/Scenes/Cutscenes/3Sivas/cityStealth0.unity
     guid: 3210da88e588fde49a1203bd451366a6
   - enabled: 1
     path: Assets/Scenes/Cutscenes/3Sivas/Decision3.unity
