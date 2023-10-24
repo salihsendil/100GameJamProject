@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b20aa8372bac14387c34a7d6658fdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextlevel: mission1
+  nextlevel: CityStealth0
   dialogueFinished: 0
 --- !u!850595691 &970254589
 LightingSettings:
