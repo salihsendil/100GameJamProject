@@ -18,6 +18,7 @@ public class LevelLoadTrigger : MonoBehaviour
     {
         if (gameSession.AllLettersCollected) {
             if (other.gameObject.CompareTag("Player")) {
+                Debug.Log("Load trigger activated");
                 levelLoader.LoadNextScene();
             }
         }

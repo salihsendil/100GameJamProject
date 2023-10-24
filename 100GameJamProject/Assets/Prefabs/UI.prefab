@@ -426,8 +426,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1/10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
+  m_sharedMaterial: {fileID: -9119282067571826433, guid: 034ffa8ada51e7b4d917828f44379467, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -602,6 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextSceneName: newScene
+  gamerOverMenu: {fileID: 0}
   repair: {fileID: 626619186}
 --- !u!1001 &1130789954582938882
 PrefabInstance:
