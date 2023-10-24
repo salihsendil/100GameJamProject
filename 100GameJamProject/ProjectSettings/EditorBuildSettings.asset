@@ -110,10 +110,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/TestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DecisionTest.unity
     guid: d6996959200df9548959873e19a42153
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cutscenes/TypewriterGameOverTest.unity
     guid: 7dce4047dec82564e8f9a4fb9bc537bc
   - enabled: 1
