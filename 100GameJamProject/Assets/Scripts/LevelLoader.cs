@@ -9,6 +9,7 @@ public class LevelLoader : MonoBehaviour
     int isNextSceneLoading;
     int isSceneLoaded;
     [SerializeField] string nextSceneName;
+    [SerializeField] GameObject gamerOverMenu;
     public GameObject repair;
 
     void Awake()
@@ -17,6 +18,8 @@ public class LevelLoader : MonoBehaviour
         isNextSceneLoading = Animator.StringToHash("isNextSceneLoading");
         isSceneLoaded = Animator.StringToHash("isSceneLoaded");
         StartCoroutine(FadeInDelay());
+        gamerOverMenu.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void LoadNextScene()
@@ -27,7 +30,9 @@ public class LevelLoader : MonoBehaviour
     public void LoadGameOverScene()
     {
         Debug.Log("game over");
-        //SceneManager.LoadScene("GameOverScene");
+        gamerOverMenu.SetActive(true);
+        Time.timeScale = 0;
+        
     }
 
     private void FadeInTrigger()

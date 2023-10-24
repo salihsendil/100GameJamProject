@@ -42119,11 +42119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735931, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3207302
+      value: 1.2569752
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735931, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9595742
+      value: -1.9597058
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735931, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -42836,11 +42836,15 @@ PrefabInstance:
     - target: {fileID: 4497425737836631031, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 4497425737836631031, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: -9119282067571826433, guid: c82b3dd3c5e80f147aa1242eb262116e, type: 2}
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4497425737989566224, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
+      propertyPath: gamerOverMenu
+      value: 
+      objectReference: {fileID: 955928833}
     - target: {fileID: 4497425737989566224, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
       propertyPath: nextSceneName
       value: Decision3
