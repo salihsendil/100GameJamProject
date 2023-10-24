@@ -161,7 +161,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 129.65, y: 1.9245}
-  m_SizeDelta: {x: 1109.3, y: 290.05}
+  m_SizeDelta: {x: 1109.3, y: 237.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &123953045
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   delay: 0.1
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 0170ac8a992de094cb052e42551df1dd, type: 3}
-  characterSprite: {fileID: 21300000, guid: bca10e3f528eeb444b6bcaa3c5608d2f, type: 3}
+  characterSprite: {fileID: 21300000, guid: 3decd0a36c25066468f6e76edb2dc8b4, type: 3}
   imageHolder: {fileID: 2080204220}
 --- !u!114 &123953046
 MonoBehaviour:
@@ -210,7 +210,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 104
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -261,7 +261,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -693, y: 0.0000076294}
-  m_SizeDelta: {x: 174, y: 279.2}
+  m_SizeDelta: {x: 174, y: 174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &353059718
 MonoBehaviour:
@@ -786,7 +786,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 129.65, y: -3.5}
-  m_SizeDelta: {x: 1109.3, y: 279.2}
+  m_SizeDelta: {x: 1109.3, y: 237.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791024925
 MonoBehaviour:
@@ -806,7 +806,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 9f8d62239224bb2409a7927b6eef24b2, type: 3}
-  characterSprite: {fileID: 21300000, guid: bca10e3f528eeb444b6bcaa3c5608d2f, type: 3}
+  characterSprite: {fileID: 21300000, guid: 3decd0a36c25066468f6e76edb2dc8b4, type: 3}
   imageHolder: {fileID: 353059718}
 --- !u!114 &791024926
 MonoBehaviour:
@@ -835,7 +835,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 104
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1059,7 +1059,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -693, y: 0.0000076294}
-  m_SizeDelta: {x: 174, y: 279.2}
+  m_SizeDelta: {x: 174, y: 174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1068064121
 MonoBehaviour:
@@ -1359,7 +1359,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -693, y: 0.0000076294}
-  m_SizeDelta: {x: 174, y: 279.2}
+  m_SizeDelta: {x: 174, y: 174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1679886354
 MonoBehaviour:
@@ -1437,7 +1437,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 129.65, y: 1.924}
-  m_SizeDelta: {x: 1109.3, y: 290.05}
+  m_SizeDelta: {x: 1109.3, y: 237.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1700574572
 MonoBehaviour:
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   delay: 0.1
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 0170ac8a992de094cb052e42551df1dd, type: 3}
-  characterSprite: {fileID: 21300000, guid: f4484be743a89d74da71a55887168542, type: 3}
+  characterSprite: {fileID: 21300000, guid: be74769c338bf41498a87d8311485e8d, type: 3}
   imageHolder: {fileID: 1068064121}
 --- !u!114 &1700574573
 MonoBehaviour:
@@ -1487,7 +1487,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 104
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1540,7 +1540,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 129.649, y: -3.5}
-  m_SizeDelta: {x: 1109.297, y: 279.2}
+  m_SizeDelta: {x: 1109.297, y: 237.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1989974056
 MonoBehaviour:
@@ -1560,7 +1560,7 @@ MonoBehaviour:
   delay: 0.08
   delayBetweenLines: 2
   sound: {fileID: 8300000, guid: 9f8d62239224bb2409a7927b6eef24b2, type: 3}
-  characterSprite: {fileID: 21300000, guid: f4484be743a89d74da71a55887168542, type: 3}
+  characterSprite: {fileID: 21300000, guid: be74769c338bf41498a87d8311485e8d, type: 3}
   imageHolder: {fileID: 1679886354}
 --- !u!114 &1989974057
 MonoBehaviour:
@@ -1589,7 +1589,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 104
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1642,7 +1642,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -693, y: 0.0000076294}
-  m_SizeDelta: {x: 174, y: 279.2}
+  m_SizeDelta: {x: 174, y: 174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080204220
 MonoBehaviour:
