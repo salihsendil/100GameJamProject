@@ -62097,6 +62097,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1169581704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1953920979178594566, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
+  m_PrefabInstance: {fileID: 1496905374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1182094393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62318,6 +62323,10 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 588479629}
+    - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 1169581704}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
 --- !u!1001 &1916226372
