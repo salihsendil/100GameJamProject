@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87c998f32d0b4b449b5178366a702d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextlevel: Decision10
+  nextlevel: Decision9
   dialogueFinished: 0
 --- !u!850595691 &970254589
 LightingSettings:
