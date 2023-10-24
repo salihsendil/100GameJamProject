@@ -41916,6 +41916,16 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &955928833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3526570334470829860, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
+  m_PrefabInstance: {fileID: 1496905374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &969667521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5739361270611517085, guid: ec638684b406eb040b7dc02d0fc1d288, type: 3}
+  m_PrefabInstance: {fileID: 1496905374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001011426
 GameObject:
   m_ObjectHideFlags: 0
@@ -43076,7 +43086,7 @@ PrefabInstance:
     - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
       propertyPath: debugMenu
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 969667521}
     - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -43088,7 +43098,7 @@ PrefabInstance:
     - target: {fileID: 2481016732753132922, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
       propertyPath: gameOverMenu
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 955928833}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56fc72251ea04b547af2a2583bfadd8c, type: 3}
 --- !u!1 &1883142867
