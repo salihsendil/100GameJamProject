@@ -6734,13 +6734,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 20.97667, y: 8.080702}
+    - - {x: 20.902042, y: 10.422989}
       - {x: 20.961788, y: 10.895595}
       - {x: -1.4244843, y: 10.876387}
       - {x: -5.407279, y: 10.937033}
       - {x: -6.469468, y: 7.8326616}
-      - {x: -6.4818707, y: -14.138675}
-      - {x: 21.917313, y: -14.121851}
+      - {x: -6.4818707, y: -15.073339}
+      - {x: 21.874828, y: -15.056515}
       - {x: 21.954933, y: 8.047401}
 --- !u!4 &624356075
 Transform:
@@ -11193,7 +11193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735812, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: orthographic size
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735812, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -11217,7 +11217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4713783417640735931, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 4713783418586685331, guid: 056a9f05371d4fc4789d9c68385b44d2, type: 3}
       propertyPath: m_Follow
