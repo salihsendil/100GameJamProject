@@ -7,13 +7,13 @@ INCLUDE globals.ink
 -> main
 
 === main ===
-Paşam, Diyarbakır’da bir hadise meydana gelmiş. Bu telgrafı size iletmemi istediler. #speaker:Postacı #portrait:postman
+Paşam, Diyarbakır’da bir hadise meydana gelmiş. Bu telgrafı size iletmemi istediler. #speaker:Postacı #portrait:postman1
 
-Ver bakalım. #speaker:M. Kemal Paşa #portrait:kemalpasa1
+Ver bakalım. #speaker:M. Kemal Paşa #portrait:kemalpasa2
 
 .....
 
-Paşam telgrafta ne yazıyor? #speaker:İsmet Paşa #portrait:ismetpasa1
+Paşam telgrafta ne yazıyor? #speaker:İsmet Paşa #portrait:ismetpasa2
     + [İsyanı bastır ]
         -> quell
     + [Görmezden Gel]
@@ -21,16 +21,16 @@ Paşam telgrafta ne yazıyor? #speaker:İsmet Paşa #portrait:ismetpasa1
         
 === quell ===
 
-İrticai bir kesim şeriat çağrıları ile cumhuriyetimize ve devrimlerimize karşı baş kaldırmış. #speaker:M. Kemal Paşa #portrait:kemalpasa1
+İrticai bir kesim şeriat çağrıları ile cumhuriyetimize ve devrimlerimize karşı baş kaldırmış. #speaker:M. Kemal Paşa #portrait:kemalpasa2
 
 Derhal Kâzım Paşa’ya, Mürsel Paşa’ya ve Naci Paşa’ya haber verin. Bu irticai eylemin icabına hemen bakılsın.
 
-Baş üstüne efendim! #speaker:İsmet Paşa #portrait:ismetpasa1
+Baş üstüne efendim! #speaker:İsmet Paşa #portrait:ismetpasa2
 -> END
 
 === dismiss ===
 
-Yapmış olduğumuz devrimler halkın bu kadar tepkisini çektiyse yapabileceğimiz pek bir şey yok.  #speaker:M. Kemal Paşa #portrait:kemalpasa1
+Yapmış olduğumuz devrimler halkın bu kadar tepkisini çektiyse yapabileceğimiz pek bir şey yok.  #speaker:M. Kemal Paşa #portrait:kemalpasa2
 
 Anlaşılan halk devrimlere pek hazır değil. 
 
@@ -40,6 +40,6 @@ Ne istiyorsa söylesinler, ortada bir yerde uzlaşmaya çalışalım.
 
 Şu an devleti ilgilendiren daha önemli meseleler var, bununla uğraşacak durumda değiliz.
 
-Emredersiniz! #speaker:İsmet Paşa #portrait:ismetpasa1
+Emredersiniz! #speaker:İsmet Paşa #portrait:ismetpasa2
 
 -> END

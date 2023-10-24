@@ -465,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1533.2358, y: -543.8816}
-  m_SizeDelta: {x: -524.604, y: 2010.6755}
+  m_AnchoredPosition: {x: 1185, y: -968}
+  m_SizeDelta: {x: -1611.261, y: 3767.278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106381170
 MonoBehaviour:
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1687317ed8b00a4a8633a049f523cce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76e43a70edb8a994c88a58da7cb235fb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -970,7 +970,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 774.76025, y: 0.000030518}
+  m_AnchoredPosition: {x: 774.76, y: 23}
   m_SizeDelta: {x: 1349.6, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269137350
@@ -1737,7 +1737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 774.76025, y: -405}
+  m_AnchoredPosition: {x: 774.76, y: -348}
   m_SizeDelta: {x: 1349.6, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563761717
@@ -2936,7 +2936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits
+  m_text: "Katk\u0131da Bulunanlar"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2999,7 +2999,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 6.1898003, y: 0, z: 0, w: 0}
+  m_margin: {x: 6.1898003, y: 0, z: -831.24146, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3983,7 +3983,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1262.1, y: 265}
+  m_AnchoredPosition: {x: -1255.4, y: 307}
   m_SizeDelta: {x: 322.178, y: 126.635}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375960798
@@ -4141,7 +4141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Special thanks to Tan Berk Ak\u0131"
+  m_text: "Tan Berk Ak\u0131'ya ayr\u0131ca te\u015Fekk\xFCrler!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4472,8 +4472,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00024414062, y: 201.03699}
-  m_SizeDelta: {x: -0.00024414, y: -1029.405}
+  m_AnchoredPosition: {x: 137.055, y: 201.03699}
+  m_SizeDelta: {x: 274.111, y: -1029.405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570368038
 MonoBehaviour:
@@ -4549,7 +4549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 774.76, y: 733}
+  m_AnchoredPosition: {x: 774.76, y: 693}
   m_SizeDelta: {x: 1349.6, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658826291
@@ -5416,7 +5416,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xD6mer Alper G\xFCzel\nBerdan Alpi Bal\nSalih \u015Eendil"
+  m_text: "\xD6mer Alper G\xFCzel\nSalih \u015Eendil\nBerdan Alpi Bal"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

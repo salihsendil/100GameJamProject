@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class SceneSelector : MonoBehaviour
 {
+    PauseMenu pausemenu;
 
     public string scene;
     //public Text levelText;
@@ -18,5 +19,8 @@ public class SceneSelector : MonoBehaviour
     public void OpenScene()
     {
         SceneManager.LoadScene(scene);
+        //pausemenu.ResumeGame();
+        //pausemenu.isDebug = false;
+        Time.timeScale = 1f;
     }
 }

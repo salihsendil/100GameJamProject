@@ -7,13 +7,13 @@ INCLUDE globals.ink
 -> main
 
 === main ===
-Paşam, çok geçmiş olsun. #speaker:İsmet Paşa #portrait:ismetpasa1
+Paşam, çok geçmiş olsun. #speaker:İsmet Paşa #portrait:ismetpasa2
 
 Büyük bir musibet atlattık.
 
-Sağolunuz başvekilim. #speaker:M. Kemal Paşa #portrait:kemalpasa1
+Sağolunuz başvekilim. #speaker:M. Kemal Paşa #portrait:kemalpasa2
 
-Paşam, dinsel gericilik tehlikesine karşı acil sıkıyönetim ilan etmemiz gerekir.  #speaker:İsmet Paşa #portrait:ismetpasa1
+Paşam, dinsel gericilik tehlikesine karşı acil sıkıyönetim ilan etmemiz gerekir.  #speaker:İsmet Paşa #portrait:ismetpasa2
 
 Size karşı suikast girişimine bile kalkışan bu hareketi çok geç olmadan durdurmamız lazım.
 
@@ -27,18 +27,18 @@ Peki paşam, ne yapmayı planlıyorsunuz?
         
 === emergency ===
 
-Pekâlâ. Eğer cumhuriyetin üstünde böyle bir irtica tehlikesi varsa derhal sıkı önlemler alınsın. #speaker:M. Kemal Paşa #portrait:kemalpasa1
+Pekâlâ. Eğer cumhuriyetin üstünde böyle bir irtica tehlikesi varsa derhal sıkı önlemler alınsın. #speaker:M. Kemal Paşa #portrait:kemalpasa2
 
 Hemen mahkemeleri kurun ve isyancıların gözünün yaşına bile bakmayın.
 
 Devrimleri muhafaza etmek cumhuriyetin geleceği için hayati bir husustur ve bu konu üzerine asla taviz veremeyiz. 
 
-Baş üstüne efendim! #speaker:İsmet Paşa #portrait:ismetpasa1
+Baş üstüne efendim! #speaker:İsmet Paşa #portrait:ismetpasa2
 -> END
 
 === pacifism ===
 
-Ne pahasına olursa olsun kurmaya çalıştığımız bu ulusal birliği bozmamamız gerek. #speaker:M. Kemal Paşa #portrait:kemalpasa1
+Ne pahasına olursa olsun kurmaya çalıştığımız bu ulusal birliği bozmamamız gerek. #speaker:M. Kemal Paşa #portrait:kemalpasa2
 
 Bu ülkeyi yönetenler olarak aramızda siyasi husumet olabilir ama yine de hepimizin bu memleket için çalıştığını unutmamamız lazım.
 
@@ -54,6 +54,6 @@ Böylesine bir kriz anında sakinliğinizi koruyun ve ulusal birliğin bozulmas�
 
 Bu gibi meselelerin ardından oluşabilecek kutuplaşma ortamı sadece düşmanlarımızın işine yarar.
 
-Emredersiniz! #speaker:İsmet Paşa #portrait:ismetpasa1
+Emredersiniz! #speaker:İsmet Paşa #portrait:ismetpasa2
 
 -> END
